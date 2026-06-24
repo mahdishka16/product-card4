@@ -1,47 +1,74 @@
 body {
-  font-family: arial, sans-serif;
+	font-family: Montserrat, sans-serif;
+	background: url("Dandelions-back_ground.png");
+	background-position: center;
 }
 
 .structure {
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 18px;
-  color: #515076;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+	color: #515076;
 }
 
 p {
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 18px;
-  color: #515076;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+	color: #515076;
 }
 
 b {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #515076;
 }
 
 h1 {
-  font-weight: 400;
-  font-size: 70px;
-  line-height: 78px;
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 78px;
+	text-align: center;
+	color: #515076;
 }
 
 .for_normal_skin {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 24px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 24px;
+	color: #A5A3B9;
 }
 
 .price {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #515076;
 }
 
 h2 {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 27px;
+	color: #515076;
+}
+
+.display {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 45px;
+}
+
+img {
+	width: 100%;
+	max-width: 250px;
+	height: auto;
+}
+
+.price_flex {
+	display: flex;
+	justify-content: space-between;
+	width: 161px;
 }
