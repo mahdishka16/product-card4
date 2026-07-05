@@ -1,74 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-	font-family: Montserrat, sans-serif;
-	background: url("Dandelions-back_ground.png");
-	background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    background: url("Dandelions-back_ground.png") center/cover no-repeat;
 }
 
-.structure {
-	font-weight: 400;
-	font-size: 13px;
-	line-height: 18px;
-	color: #515076;
+.title {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+    color: #515076;
+    margin: 60px 0;
 }
 
-p {
-	font-weight: 400;
-	font-size: 13px;
-	line-height: 18px;
-	color: #515076;
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    list-style: none;
+    padding: 0;
 }
 
-b {
-	font-weight: 700;
-	font-size: 20px;
-	line-height: 24px;
-	color: #515076;
+.product {
+    width: 250px;
 }
 
-h1 {
-	font-weight: 400;
-	font-size: 70px;
-	line-height: 78px;
-	text-align: center;
-	color: #515076;
+.product__img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
 }
 
-.for_normal_skin {
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 24px;
-	color: #A5A3B9;
+.product__type {
+    font-size: 12px;
+    color: #A5A3B9;
+    display: block;
+    margin-bottom: 5px;
 }
 
-.price {
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 24px;
-	color: #515076;
+.product__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #515076;
+    margin-bottom: 10px;
 }
 
-h2 {
-	font-weight: 700;
-	font-size: 20px;
-	line-height: 27px;
-	color: #515076;
+.product__text {
+    font-size: 13px;
+    color: #515076;
+    margin-bottom: 10px;
 }
 
-.display {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 45px;
+.product__subtitle {
+    font-size: 13px;
+    font-weight: 700;
+    color: #515076;
+    display: block;
+    margin-bottom: 5px;
 }
 
-img {
-	width: 100%;
-	max-width: 250px;
-	height: auto;
+.product__list {
+    padding-left: 18px;
+    margin-bottom: 10px;
 }
 
-.price_flex {
-	display: flex;
-	justify-content: space-between;
-	width: 161px;
+.product__item {
+    font-size: 13px;
+    color: #515076;
 }
+
+.product__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: #515076;
+}
+
+
