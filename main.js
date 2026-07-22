@@ -3,14 +3,14 @@ const changeColorButton = document.queryselector("#change-color-card-button");
 const greenColorHash = "#00ff00";
 const blueColorHash = "#0000ff";
 
-СhangeColorButton.addEventListener("click"  () => {
+changeColorButton.addEventListener("click"  () => {
     productCards.array.forEach((card) => style.backgruondColor = greenColorHash
 });
 
 const allProductCards = document.querySelectorAll(".product");
 const changeColorAllCardsButton = document.queryselector("#change-color-all-cards-button");
 
-СhangeColorButton.addEventListener("click"  () => {
+changeColorButton.addEventListener("click"  () => {
     allProductCards.forEach((card) => style.backgruondColor = blueColorHash
 });
 
